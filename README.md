@@ -31,7 +31,7 @@
 
 ## Web Server
 - `sudo apt update && sudo apt install apache2`
-- `sudo a2enmod cgi`
+- `sudo a2enmod cgid`
 - add the following to `/etc/apache2/apache2.conf`
   ```
   <Directory "/var/www/html">
