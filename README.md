@@ -1,5 +1,8 @@
 # File Descriptions
 
+## ./contract.sol
+- source code of our smart contract
+
 ## ./abi.txt & ./bytecode.txt
 - Text files that hold the output of the Remix compiler
 - Referenced by Python scripts to deploy the smart contract and abi.txt needed call smart contract functions 
