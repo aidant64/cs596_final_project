@@ -35,4 +35,5 @@
 - `sudo systemctl restart apache2`
 - copy `./html` into `/var/www/html` so Apache can find our website source code
   
-##  
+## User Interaction
+- Open 'localhost' or 'localhost:80' in any web browser to access and use the web interface which will connect to and modify the Geth network.
