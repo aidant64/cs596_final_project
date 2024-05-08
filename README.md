@@ -32,8 +32,14 @@
 ## Web Server
 - `sudo apt update && sudo apt install apache2`
 - `sudo a2enmod cgi`
+- add the following to `/etc/apache2/apache2.conf`
+  ```
+  <Directory "/var/www/html">
+        Options +ExecCGI
+        AddHandler cgi-script .py
+  </Directory>```
 - `sudo systemctl restart apache2`
 - copy the contents of `./html` into `/var/www/html` so Apache can find our website source code
   
-## User Interaction
+## Using it!
 - Open 'localhost' or 'localhost:80' in any web browser to access and use the web interface which will connect to and modify the Geth network.
