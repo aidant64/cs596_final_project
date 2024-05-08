@@ -37,7 +37,8 @@
   <Directory "/var/www/html">
         Options +ExecCGI
         AddHandler cgi-script .py
-  </Directory>```
+  </Directory>
+  ```
 - `sudo systemctl restart apache2`
 - copy the contents of `./html` into `/var/www/html` so Apache can find our website source code
   
